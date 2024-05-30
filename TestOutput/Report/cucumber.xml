@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="36.094" tests="5" skipped="0" failures="0" errors="0">
-<testcase classname="RastMobile Task" name="Navigate MainPage" time="6.482">
+<testsuite name="Cucumber" time="37.454" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="RastMobile Task" name="Navigate MainPage" time="6.316">
 <system-out><![CDATA[
 Given User goes to main page and accept cookies.............................passed
 Then Verify the main page title.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="RastMobile Task" name="Add a product to cart" time="10.523">
+<testcase classname="RastMobile Task" name="Add a product to cart" time="10.68">
 <system-out><![CDATA[
 Given User hovers the mouse over the title of newly released books..........passed
 Then User clicks on newly realesed "Bilgisayar" books options...............passed
@@ -16,17 +16,17 @@ Then User clicks on cart ıcon...............................................pas
 And User clicks on satinAL button...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="RastMobile Task" name="Get a book without register - Example #1.1" time="8.736">
+<testcase classname="RastMobile Task" name="Get a book without register - Example #1.1" time="9.999">
 <system-out><![CDATA[
 Given User selects continue without register option.........................passed
 And Verify the guest page title.............................................passed
 When User clicks on add address button......................................passed
-Then User enters "Tester", "Sutcu", "testMS@gmaill.com" to form.............passed
+Then User enters "Test", "BYSUTCU", "testMS@gmaill.com" to form.............passed
 Then User enters "Mehmet", "Sutcu", "Türkiye", "Ankara", "ÇANKAYA", "Kitap Sokak NO.10", "5531610100" to delivery form.passed
 And User clicks on continue button..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="RastMobile Task" name="Payment Page" time="4.822">
+<testcase classname="RastMobile Task" name="Payment Page" time="4.872">
 <system-out><![CDATA[
 Given Verifies that user address details has been displayed.................passed
 Then User clicks on continue button.........................................passed
@@ -38,7 +38,7 @@ And User enters credit cart cvc number......................................pass
 Then User clicks on continue button.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="RastMobile Task" name="Order confirmation" time="0.29">
+<testcase classname="RastMobile Task" name="Order confirmation" time="0.32">
 <system-out><![CDATA[
 Given User checks the notification form checkbox............................passed
 And verify checkBOX isChecked...............................................passed

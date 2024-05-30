@@ -17,15 +17,15 @@ Feature: RastMobile Task
     Given User selects continue without register option
     And Verify the guest page title
     When User clicks on add address button
-    Then User enters "Tester", "Sutcu", "testMS@gmaill.com" to form
-    Then User enters "<Ad>", "<Soyad>", "<Ülke>", "<Sehir>", "<Ilce>", "<Adres>", "<tel>" to delivery form
+    Then User enters "Test", "BYSUTCU", "testMS@gmaill.com" to form
+    Then User enters "<Ad>", "<Soyad>", "<Ulke>", "<Sehir>", "<Ilce>", "<Adres>", "<tel>" to delivery form
     And User clicks on continue button
 
     Examples:
-      | Ad     | Soyad | Ülke    | Sehir  | Ilce    | Adres             | tel        |
+      | Ad     | Soyad | Ulke    | Sehir  | Ilce    | Adres             | tel        |
       | Mehmet | Sutcu | Türkiye | Ankara | ÇANKAYA | Kitap Sokak NO.10 | 5531610100 |
 
-    Scenario: Payment Page
+  Scenario: Payment Page
       Given Verifies that user address details has been displayed
       Then User clicks on continue button
       And Verify the payment page title

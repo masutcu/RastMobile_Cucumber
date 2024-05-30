@@ -38,6 +38,10 @@ public class BooksPageStepDef extends ReusableMethods {
 
     @Given("User selects continue without register option")
     public void userSelectsContinueWithoutRegisterOption() {
+
+        showElementWithFrame(locate.paymentGirisOptions.get(2));
+        tumSayfaResmi();
+        bekle(1);
         locate.paymentGirisOptions.get(2).click();
     }
 
