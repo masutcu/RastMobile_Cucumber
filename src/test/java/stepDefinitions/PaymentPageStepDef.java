@@ -9,6 +9,9 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PaymentPageStepDef extends ReusableMethods {
     PaymentPage locate=new PaymentPage();
 
@@ -20,16 +23,19 @@ public class PaymentPageStepDef extends ReusableMethods {
 
     @And("User enters credit cart name")
     public void userEntersCreditCartName() {
+        locate.cardName.clear();
         locate.cardName.sendKeys(ConfigReader.getProperty("kartName"));
     }
 
     @And("User enters credit cart expires date")
     public void userEntersCreditCartExpiresDate() {
+        locate.sonKTarihi.clear();
         locate.sonKTarihi.sendKeys(ConfigReader.getProperty("sktarihi"));
     }
 
     @And("User enters credit cart cvc number")
     public void userEntersCreditCartCvcNumber() {
+        locate.cvc.clear();
         locate.cvc.sendKeys(ConfigReader.getProperty("cvc"));
     }
 
@@ -80,5 +86,26 @@ public class PaymentPageStepDef extends ReusableMethods {
     public void verifiesThatCheckboxErrMessageHasBeenDisplayed() {
         System.out.println(locate.checkBoxErrMessage.getText());
         Assert.assertTrue(locate.checkBoxErrMessage.isDisplayed());
+    }
+
+
+
+    @And("User enters credit cart {string} _Negative")
+    public void userEntersCreditCart_Negative(String number) {
+        showElementWithFrame(locate.cardNumber);
+        locate.cardNumber.clear();
+        locate.cardNumber.sendKeys(number);
+        bekle(1);
+       }
+
+    @And("Verify error message is displayed")
+    public void verifyErrorMessageIsDisplayed() {
+
+        String unvalidCardNoMessage=locate.cardMessage1.getText();
+        List<String> expected=new ArrayList<>();
+        expected.add("Kart numarası geçersiz. Kontrol ediniz!");
+        expected.add("Kart numarası alanı 16 karakter olmalı!");
+        boolean containsExpectedMessage = expected.stream().anyMatch(unvalidCardNoMessage::contains);
+        Assert.assertTrue(containsExpectedMessage);
     }
 }

@@ -1,4 +1,4 @@
-@rast
+@positive
 Feature: RastMobile Task
 
   Scenario: Navigate MainPage
@@ -23,7 +23,7 @@ Feature: RastMobile Task
 
     Examples:
       | Ad     | Soyad | Ulke    | Sehir  | Ilce    | Adres             | tel        |
-      | Mehmet | Sutcu | Türkiye | Ankara | ÇANKAYA | Kitap Sokak NO.10 | 5531610100 |
+      | Mehmet | Sutcu | Türkiye | Ankara | ÇANKAYA | Kitap Sokak NO.10 | 5531010101 |
 
   Scenario: Payment Page
       Given Verifies that user address details has been displayed

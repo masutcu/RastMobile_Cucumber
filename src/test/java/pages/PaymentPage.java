@@ -30,6 +30,10 @@ public class PaymentPage {
     @FindBy(id = "terms-and-condition-error")
     public WebElement checkBoxErrMessage;
 
+    @FindBy(id = "swal2-title")
+    public WebElement cardMessage1;
+
+
 
 
 }
