@@ -6,14 +6,14 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty",
-        "html:TestOutput/Report/cucumberHooks.html",
+        "html:TestOutput/Report/CucumberReport.html",
         "json:target/json-reports/cucumber.json",
         "junit:TestOutput/Report/cucumber.xml",
         "rerun:TestOutput/failed_scenario.txt"},
         features = "src/test/resources/features",
         glue ={"stepDefinitions","hooks"},
 
-        tags ="@positive",
+        tags ="@negative",
 
         dryRun = false,
         monochrome = true)

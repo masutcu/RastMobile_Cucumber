@@ -42,3 +42,4 @@ Feature: RastMobile Task
       And verify checkBOX isUnChecked
       Then User clicks on Order Confirmation button
       And Verifies that checkbox err message has been displayed
+      #Son adım öncesinde zorunlu checkbox işareti kaldırılarak ödeme tamamlanmamıştır.

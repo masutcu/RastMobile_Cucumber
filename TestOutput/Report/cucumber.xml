@@ -1,51 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="37.166" tests="5" skipped="0" failures="0" errors="0">
-<testcase classname="RastMobile Task" name="Navigate MainPage" time="6.133">
+<testsuite name="Cucumber" time="60.824" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="RastMobile Task" name="Card Details" time="30.2">
 <system-out><![CDATA[
 Given User goes to main page and accept cookies.............................passed
 Then Verify the main page title.............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="RastMobile Task" name="Add a product to cart" time="10.566">
-<system-out><![CDATA[
 Given User hovers the mouse over the title of newly released books..........passed
 Then User clicks on newly realesed "Bilgisayar" books options...............passed
 And User adds to cart first book............................................passed
 Then Verifies that the product has been added on the cart icon..............passed
 Then User clicks on cart ıcon...............................................passed
 And User clicks on satinAL button...........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="RastMobile Task" name="Get a book without register - Example #1.1" time="9.751">
-<system-out><![CDATA[
 Given User selects continue without register option.........................passed
 And Verify the guest page title.............................................passed
 When User clicks on add address button......................................passed
 Then User enters "Test", "BYSUTCU", "testMS@gmaill.com" to form.............passed
-Then User enters "Mehmet", "Sutcu", "Türkiye", "Ankara", "ÇANKAYA", "Kitap Sokak NO.10", "5531010101" to delivery form.passed
+Then User enters "Mehmet", "SUTCU", "Türkiye", "Ankara", "ÇANKAYA", "Kitap Sokak NO.10", "5531010101" to delivery form.passed
 And User clicks on continue button..........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="RastMobile Task" name="Payment Page" time="5.129">
-<system-out><![CDATA[
-Given Verifies that user address details has been displayed.................passed
+And Verifies that user address details has been displayed...................passed
 Then User clicks on continue button.........................................passed
 And Verify the payment page title...........................................passed
-And User enters credit cart number..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RastMobile Task" name="Negative CartNumber - Example #1.1" time="3.618">
+<system-out><![CDATA[
+And User enters credit cart "0000236639977478" _Negative....................passed
 And User enters credit cart name............................................passed
 And User enters credit cart expires date....................................passed
 And User enters credit cart cvc number......................................passed
 Then User clicks on continue button.........................................passed
+And Verify error message is displayed.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="RastMobile Task" name="Order confirmation" time="0.305">
+<testcase classname="RastMobile Task" name="Negative CartNumber - Example #1.2" time="3.649">
 <system-out><![CDATA[
-Given User checks the notification form checkbox............................passed
-And verify checkBOX isChecked...............................................passed
-Then user unchecks notification form checkbox...............................passed
-And verify checkBOX isUnChecked.............................................passed
-Then User clicks on Order Confirmation button...............................passed
-And Verifies that checkbox err message has been displayed...................passed
+And User enters credit cart "5570236639970000" _Negative....................passed
+And User enters credit cart name............................................passed
+And User enters credit cart expires date....................................passed
+And User enters credit cart cvc number......................................passed
+Then User clicks on continue button.........................................passed
+And Verify error message is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RastMobile Task" name="Negative CartNumber - Example #1.3" time="3.61">
+<system-out><![CDATA[
+And User enters credit cart "557023663997747" _Negative.....................passed
+And User enters credit cart name............................................passed
+And User enters credit cart expires date....................................passed
+And User enters credit cart cvc number......................................passed
+Then User clicks on continue button.........................................passed
+And Verify error message is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RastMobile Task" name="Negative CartNumber - Example #1.4" time="3.604">
+<system-out><![CDATA[
+And User enters credit cart "557023663997747." _Negative....................passed
+And User enters credit cart name............................................passed
+And User enters credit cart expires date....................................passed
+And User enters credit cart cvc number......................................passed
+Then User clicks on continue button.........................................passed
+And Verify error message is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RastMobile Task" name="Negative CartNumber - Example #1.5" time="3.6">
+<system-out><![CDATA[
+And User enters credit cart "557023663997747_" _Negative....................passed
+And User enters credit cart name............................................passed
+And User enters credit cart expires date....................................passed
+And User enters credit cart cvc number......................................passed
+Then User clicks on continue button.........................................passed
+And Verify error message is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RastMobile Task" name="Negative CartNumber - Example #1.6" time="3.612">
+<system-out><![CDATA[
+And User enters credit cart "557023663997747A" _Negative....................passed
+And User enters credit cart name............................................passed
+And User enters credit cart expires date....................................passed
+And User enters credit cart cvc number......................................passed
+Then User clicks on continue button.........................................passed
+And Verify error message is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RastMobile Task" name="Negative CartNumber - Example #1.7" time="3.612">
+<system-out><![CDATA[
+And User enters credit cart "a702366399774712" _Negative....................passed
+And User enters credit cart name............................................passed
+And User enters credit cart expires date....................................passed
+And User enters credit cart cvc number......................................passed
+Then User clicks on continue button.........................................passed
+And Verify error message is displayed.......................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
