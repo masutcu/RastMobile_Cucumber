@@ -1,7 +1,7 @@
-Bu proje RastMobile  şirketi için hazırlanmıştır. 
-Projede progranlama dili olarak: java 17 
-otomasyon suiti olarak: Selenium 4.20 kullanılmıştır. 
-Framework olarak BDD ve POM yaklaşımına uygun Cucumber framework'ü tercih edilmiştir.  
+Bu proje **RastMobile**  şirketi için hazırlanmıştır. 
+Projede progranlama dili olarak: _java_17_, 
+otomasyon suiti olarak: _Selenium_4.20_ kullanılmıştır. 
+Framework olarak BDD ve POM yaklaşımına uygun _Cucumber_ framework'ü tercih edilmiştir.  
 Raporlama için cucumber html report ile xml report kullanılmış, 
 ayrıca fail senaryorın text olarak dinamik şekilde raporlaması alınmıştır. 
 Raporlara  TestOutput altında Report klasöründen ulaşılabilir. 
