@@ -14,7 +14,8 @@ import org.junit.runner.RunWith;
         glue ={"stepDefinitions","hooks"},
 
         tags ="@positive",
-        //testler parallel çalıştırılmak isteniyorsa terminalden: mvn clean test
+        //testler parallel çalıştırılmak isteniyorsa terminalden:
+        // mvn clean test
         dryRun = false,
         monochrome = true)
 public class Runner {
