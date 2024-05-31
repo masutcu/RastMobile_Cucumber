@@ -61,6 +61,12 @@
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version> <!-- En son sürümü kullanın -->
+            <scope>provided</scope>
+        </dependency>
 
     </dependencies>
     <build>
@@ -72,9 +78,9 @@
                 <configuration>
                     <parallel>methods</parallel>
                     <!--useUnlimitedThreads>true</useUnlimitedThreads-->
-                    <threadCount>2</threadCount> <!--aynı anda 2 browser çalıştırılacağı anlamına gelir. -->
+                    <threadCount>3</threadCount> <!--aynı anda 3 browser çalıştırılacağı anlamına gelir. -->
                     <perCoreThreadCount>false</perCoreThreadCount> <!--Yukarıdaki ayardaki iş parçacığı sayısı çekirdek başına 2 iş parçacığıdır. Bunun tüm çekirdeklerde 2 iş parçacığı olmasını istiyorsanız perCoreThreadCount değerini false olarak ayarlayın.. -->
-                    <forkCount>2</forkCount> <!-- iki ayrı işlemi başlatır ve her biri farklı bir test paketi çalıştırır. Bu, testlerin daha hızlı tamamlanmasını sağlar. Ancak, bu ayarın artırılması, sistemin kaynaklarını tüketebilir ve performans sorunlarına neden olabilir. -->
+                    <forkCount>3</forkCount> <!-- üç ayrı işlemi başlatır ve her biri farklı bir test paketi çalıştırır. Bu, testlerin daha hızlı tamamlanmasını sağlar. Ancak, bu ayarın artırılması, sistemin kaynaklarını tüketebilir ve performans sorunlarına neden olabilir. -->
                     <reuseForks>true</reuseForks> <!--Maven önceki testlerde oluşturulmuş işlemleri yeniden kullanır -->
                     <includes>
                         <include>**/runners/*Runner*.java</include>

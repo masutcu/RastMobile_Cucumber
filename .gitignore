@@ -1,0 +1,13 @@
+# TestOutput klasörünü göz ardı et
+TestOutput/
+
+# configuration.properties dosyasını göz ardı et
+configuration.properties
+
+
+target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
