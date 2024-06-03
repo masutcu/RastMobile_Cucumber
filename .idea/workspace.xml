@@ -5,204 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282591d5-ba39-4e87-93f3-93639cb1ccd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/.idea/AltinCizgi_CucumberProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/TestOutput/failed_scenario.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/src/test/java/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/src/test/java/stepDefinitions/MainPageStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/src/test/java/utilities/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/src/test/resources/features/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/src/test/resources/features/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/target/json-reports/cucumber.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/target/maven-status/maven-compiler-plugin/testCompile/default-cli/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/target/test-classes/features/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/target/test-classes/stepDefinitions/Hooks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/target/test-classes/stepDefinitions/MainPageStepDef.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/target/test-classes/utilities/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Altin_Cizgi/target/test-classes/utilities/ExcelUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/src/Apps/ApiDemos-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/src/Apps/GestureTool.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/src/test/java/appium/Appium1_Gesture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/src/test/java/appium/Appium2_apidemos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium/src/test/java/appium/Appium3_Amazon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_2ndProject/apps/MigrosSanalMarket_7.6.4_Apkpure.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_2ndProject/deviceConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_2ndProject/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_2ndProject/src/test/java/runner/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_2ndProject/src/test/java/screens/androidScreen/MainScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_2ndProject/src/test/java/stepDef/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_2ndProject/src/test/java/stepDef/firstStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_2ndProject/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_2ndProject/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_2ndProject/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/src/test/java/generalStore/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/src/test/java/generalStore/pages/FormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/src/test/java/generalStore/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/src/test/java/generalStore/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/src/test/java/generalStore/utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/src/test/java/generalStore/utils/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/src/test/resources/apps/General-Store.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/src/test/resources/features/TC01_PositiveTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectCucumber/src/test/resources/features/TC02_NegativeTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectTestNG/src/test/java/generalstore/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectTestNG/src/test/java/generalstore/pages/CatalogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectTestNG/src/test/java/generalstore/pages/CreatOrderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectTestNG/src/test/java/generalstore/pages/FormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectTestNG/src/test/java/generalstore/tests/TC01_PozitiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectTestNG/src/test/java/generalstore/tests/TC02_NegativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectTestNG/src/test/java/generalstore/utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectTestNG/src/test/java/generalstore/utils/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_ProjectTestNG/src/test/resources/General-Store.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_Upskills/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_Upskills/src/test/java/techproed/day01/C01_SetUp_Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_Upskills/src/test/resources/ApiDemos-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Appium_Upskills/src/test/resources/Calculator_8.4.1.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/BiletAll_Mobile_Android.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/app/Biletall_16.0.15_Apkpure.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/deviceConfig.Properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/src/test/java/runner/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/src/test/java/screens/BaseScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/src/test/java/screens/MainScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/src/test/java/stepDef/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/src/test/java/stepDef/MainPageStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BiletAll_Mobile_Android/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PythonFirst/PythonFirst.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PythonFirst/c03_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PythonFirst/c04_turDegistirme.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PythonFirst/c06_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumGridTestNG/src/test/java/managers/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumGridTestNG/src/test/java/suites/ParallelTestWithClasses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumGridTestNG/src/test/java/suites/SingleThreadAllTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumGridTestNG/src/test/java/tests/SearchNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumGridTestNG/src/test/java/tests/SearchStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumGridTestNG/src/test/resources/grid/selenium-server-4.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task12_Java_Cucumber/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task12_Java_Cucumber/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task12_Java_Cucumber/src/test/java/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task12_Java_Cucumber/src/test/java/pages/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task12_Java_Cucumber/src/test/java/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task12_Java_Cucumber/src/test/java/stepDefinitions/Steps_task12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task12_Java_Cucumber/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task12_Java_Cucumber/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task12_Java_Cucumber/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task12_Java_Cucumber/src/test/resources/features/task12.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/base_urls/MedunnaBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/pages/MedunnaHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/pages/MedunnaLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/pages/MedunnaRoomPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/pojos/RoomPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/stepdefinitions/ApiRoomStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/stepdefinitions/DatabaseRoomStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/stepdefinitions/MedunnaRoomStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/stepdefinitions/MedunnaSignInStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/utilities/AuthenticationMedunna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/resources/e2e_features/TC01_AdminOdaOlusturur.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/resources/e2e_features/TC02_ApiRoom.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api_e2e/src/test/resources/e2e_features/TC03_ApiRoom.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medunnaE2E_Test/medunnaE2E_Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonBDD/features/steps/ikinci.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonBDD/features/steps/stepsDefinition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonBDD/features/testcases.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonBDD/pythonBDD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/Configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/test/java/kitapYurdu/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/test/java/kitapYurdu/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/test/java/kitapYurdu/screens/MainScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/test/java/kitapYurdu/stepDefs/MainScreenStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/test/java/kitapYurdu/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/test/java/kitapYurdu/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/test/java/kitapYurdu/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/test/resources/apps/Kitapyurdu_8.25.0_Apkpure.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/test/resources/features/TC01_PositiveTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api129/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api129/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Api129/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api129/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Api129/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api129/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Api129/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api129/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Api129/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api129/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Api129/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/Get03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/RequestResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Api129/src/test/java/get_requests/RequestResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B129Cucumber/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B129TestNGProject/src/test/java/techproed/tests/Day22_TestNG_Annotations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B129_Cucumber/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../B129_Cucumber/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B129_Cucumber/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B129_Cucumber/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/CucumberProjeOlusturma.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/stepDefinitions/AmazonStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/stepDefinitions/AmazonStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../B129_Cucumber/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B129_Cucumber/src/test/resources/features/ilkfeature.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber_Practice/Configrations.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber_Practice/Configrations.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/pages/AmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/runners/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/stepDefinitions/AmazonStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/stepDefinitions/AmazonStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1001_amazonSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1001_amazonSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1002_background.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1002_background.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1003_parametreKullanimi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1003_parametreKullanimi.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1004_configDosyasi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber_Practice/src/test/resources/features/US1004_configDosyasi.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Junit_Practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit_Practice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Junit_Practice/src/test/java/prc_01/C01_Giris.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit_Practice/src/test/java/prc_01/C01_Giris.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Junit_Practice/src/test/java/prc_01/C02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit_Practice/src/test/java/prc_01/C02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenide/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenide/Configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenide/src/test/java/runner/Runners.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenide/src/test/java/runner/Runners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenide/src/test/java/stepdefinitions/CommonStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenide/src/test/java/stepdefinitions/CommonStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenide/src/test/java/tests/Test01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/Reusable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenide/src/test/java/utilities/Reusable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenide/src/test/resources/features/01_navigations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenide/src/test/resources/features/01_navigations.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/Configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/pages/MedunnaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/pages/MedunnaHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/pages/MedunnaLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/pages/MedunnaLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/pages/MedunnaRoomPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/pages/MedunnaRoomPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/stepdefinitions/MedunnaRoomStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/stepdefinitions/MedunnaSignInStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/resources/endtoend_features/TC01_AdminOdaOlusturur.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../medunnaE2E_Test/src/test/resources/endtoend_features/TC01_AdminOdaOlusturur.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sahibinden_TestNG/configuration.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/AdressPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AdressPageStepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,14 +34,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/RastMobileAutomationTask/src/test/resources/features"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/IdeaProjects/RastMobileAutomationTask/src/test/resources/features&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\IdeaProjects\RastMobileAutomationTask\src\test\resources\features" />

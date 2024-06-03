@@ -3,14 +3,19 @@ package stepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.AddressPage;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
+import java.time.Duration;
 
 
 public class AdressPageStepDef extends ReusableMethods {
     AddressPage locate=new AddressPage();
+    WebDriverWait wait;
 
 
 
@@ -30,13 +35,17 @@ public class AdressPageStepDef extends ReusableMethods {
         scroll(600);
         bekle(2);
         locate.sehir.click();
-        bekle(1);
-        //locate.adresDDM.get(1).click();
-        Driver.getDriver().findElement(By.xpath("//li[@data-name='"+sehir+"']")).click();
+
+        //buradaki açılan pencere için Explicit wait kullandım.
+
+        wait=new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(5));
+        WebElement sehirOptions=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@data-name='"+sehir+"']")));
+        sehirOptions.click();
         locate.ilce.click();
-        //locate.adresDDM.get(2).click();
-        bekle(1);
-        Driver.getDriver().findElement(By.xpath("//li[@data-name='"+ilce+"']")).click();
+
+
+        WebElement ilceOptions=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@data-name='"+ilce+"']")));
+        ilceOptions.click();
         locate.adres.sendKeys(adress);
         locate.mobilePhone.sendKeys(tel);
 

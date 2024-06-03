@@ -2,7 +2,7 @@
 
 #### Projede progranlama dili olarak: _java_17_, 
 
-#### otomasyon suiti olarak: _Selenium_4.20_ kullanılmıştır. 
+#### Otomasyon suiti olarak: _Selenium_4.20_ kullanılmıştır. 
 
 #### Framework olarak BDD ve POM yaklaşımına uygun _Cucumber_ framework'ü tercih edilmiştir.  
 
@@ -16,6 +16,8 @@ Proje çerçevesinde Page Object Model yaklaşımına uygun olarak;
 sayfalara ait locate alanları page klasörü altında, 
 test adımları feature dosyalarında, 
 test adımlarını içeren kodlar stepdefinition klasörleri altında depolanmıştır. 
+Test süresini kısaltmak içinbazı alanlarda elemente özgü expilicit wait tanımlamaları yapılmıştır.
+Test'in UI da anlaşılabilmesi ve okunabirlirliğini arttırmak açısından tıklama yapılan bazı elementlerin çerçeve içine alınarak gösterimi yapılmıştır.
 Ayrıca testler Runner class üretinden çalıştırılarak hook ve stepdefinitions entegrasyonu sağlanmıştır.
 Proje istenirse tarafımdan sunumu gerçekleştirilebilir.
 
@@ -34,5 +36,7 @@ Within the framework of the project,
 in accordance with the Page Object Model approach, 
 the locate fields of the pages were stored under the page folder, 
 the test steps were stored in feature files, 
-and the codes separated by pages containing the test steps were stored under stepdefinition folders. 
+and the codes separated by pages containing the test steps were stored under stepdefinition folders.
+In order to shorten the test time, explicit wait definitions have been made in some areas.
+In order to increase the understanding and readability of the test in the UI, some elements that are clicked have been framed and displayed.
 If desired, the project can be presented by me.
