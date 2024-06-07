@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty",
         "html:TestOutput/Report/CucumberReportNegative.html",
-        "json:target/json-reports/cucumberN.json",
+        "json:target/json-reports/cucumber.json",
         "junit:TestOutput/Report/cucumberN.xml",
         "rerun:TestOutput/failed_scenarioN.txt"},
         features = "src/test/resources/features",
